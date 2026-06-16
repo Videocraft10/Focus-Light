@@ -72,13 +72,23 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 
 
 ## BOM
+*Cost is for TWO PCBs (minimum amount for pcba)*
 
+| Item | LCSC # / Item Links | Single Cost | Amount Used | Fees/Notes | Total Price |
+| ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| 1uF Capacitor | [C15849]() | $0.0148 | 16 | ---------- | $0.2368 |
+| 100nF Capacitor | [C14663]() | $0.0094 | 6 | ---------- | $0.0564 |
+| 56k Resistor | [C23206]() | $0.0020 | 16 | ---------- | $0.032 |
+| 5.1k Resistor | [C23186]() | $0.0018 | 4 | ---------- | $0.0072 |
+| 330 Resistor | [C23138]() | $0.0016 | 2 | ---------- | $0.0032 |
+| **OPSCO Optoelectronics SK6812MINIRGBW-NW-P6** | [C7423107]() | $0.1301 | 160 (80 per) | Forced to buy 162 | $14.2884 |
+| **CoreChips SL2.1s** | [C2684433]() | $0.2494 | 2 | Forced to buy 5 | $1.247 |
+| **TI SN74AHCT125DR** | [C155176]() | $0.3489 | 2 | ---------- | $0.6978 |
+| **SHOU HAN TYPE-C16PIN** | [C393939]() | $0.0653 | 10 | ---------- | $0.6530 |
+| ***Seeed Studio XIAO-ESP32 C3 DIP*** | [AliExpress](https://www.aliexpress.us/item/3256805951491414.html?channel=twinner ) | $8.48 | 2 | Excluding shipping and aliexpress fees | $16.96 |
 
 ## How to Build
 
 
 ## Software Used
 
-
-Compoents [Temp]
-C36938886-Buttons
