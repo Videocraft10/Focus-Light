@@ -26,20 +26,20 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 **Front**
 
 
-<img width="717" height="610" alt="image" src="https://github.com/user-attachments/assets/84994567-4f37-4ddb-8a56-8379454bcd04" />
+<img width="823" height="781" alt="Screenshot 2026-06-18 111459" src="https://github.com/user-attachments/assets/5bf7e139-d580-456a-87c0-76653da38d10" />
+
 
 
 **Back**
 
 
-<img width="728" height="621" alt="image" src="https://github.com/user-attachments/assets/e87e5c29-9f41-4dad-9198-84d7db264583" />
+<img width="787" height="794" alt="Screenshot 2026-06-18 111507" src="https://github.com/user-attachments/assets/509ad759-4741-4de1-a918-472962b163fb" />
 
 
 **3D**
 
 
-<img width="660" height="514" alt="image" src="https://github.com/user-attachments/assets/ef31d07d-f34c-4305-9137-35cbbcfa9d33" />
-
+<img width="783" height="759" alt="image" src="https://github.com/user-attachments/assets/62499b4f-61a8-482c-8c38-611f51c67ab8" />
 
 
 
