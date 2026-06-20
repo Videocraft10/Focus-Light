@@ -12,7 +12,7 @@ Custom Made Desk Light (with a disco mode)
 
 ## Why?
 
-I wanted to create a incredibly usful project that I would use basicly every single day that could live on my desk at home. Addionaly this project will help me fully understand how lights work with voltages and how wiring helps etc.
+I wanted to create a incredibly useful project that I would use basicly every single day that could live on my desk at home. Addionaly this project will help me fully understand how lights work and how to effectivly create projects with them.
 
 ## The PCB
 
@@ -69,9 +69,27 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 
 
 ## The Case
+Full case
 
 
-## Firmware?
+
+<img width="538" height="709" alt="image" src="https://github.com/user-attachments/assets/b632b3e7-4054-4f31-af62-b07b5c7dbdb2" />
+
+
+Easy to open lids to acess PCB's
+<img width="1274" height="807" alt="image" src="https://github.com/user-attachments/assets/1fbda57c-b096-4342-81c6-edea2742b4c3" />
+
+
+<img width="1022" height="774" alt="image" src="https://github.com/user-attachments/assets/ef31644c-d38d-45e3-91ce-fef8f8288229" />
+
+
+Hollow tube in the middle to be able to thread wires between the two pcb's
+<img width="617" height="802" alt="image" src="https://github.com/user-attachments/assets/8838950a-49b7-4f52-9a7d-fb24b097ddab" />
+
+
+## Firmware
+
+I decided to use WLED to control the lights! A guide on how to install this on your own project can be found [here](https://kno.wled.ge/basics/getting-started/)
 
 
 ## BOM
@@ -120,7 +138,16 @@ Simply plug your computer into the lower usb port closest to the raised one, and
 
 Download the easyeda file from [here](https://github.com/Videocraft10/Focus-Light/blob/main/PCB%20Files/ProPrj_Videocraft%20Focus%20Light.epro2) and upload it to easyeda's pcb fabrication service.
 Click PCBA, and select how many you want assembled (minimun 2)
-Then download all case files from [here](
+Then download all case files from [here](https://github.com/Videocraft10/Focus-Light/tree/main/CAD%20Files/Case) or [here for 3D print ready files](https://github.com/Videocraft10/Focus-Light/tree/main/3D%20Print%20Files)
+Slices the files in your sclicer of choise and 3d print each part. Please note that this is quite large so you need a printer with a spacious print bed.
+Screw in the PCB's and soder on the ESP-32C3 and wires on the chip PCB to the LED PCB.
+
+Optional! You can create your own custom firmware for the ESP32 to make the LED's do anything you want! or use WLED like I did.
+
 
 ## Software Used
 
+Blender
+EasyEDA
+Fusion
+Adobe Photoshop
