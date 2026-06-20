@@ -26,20 +26,20 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 **Front**
 
 
-<img width="717" height="610" alt="image" src="https://github.com/user-attachments/assets/84994567-4f37-4ddb-8a56-8379454bcd04" />
+<img width="823" height="781" alt="Screenshot 2026-06-18 111459" src="https://github.com/user-attachments/assets/5bf7e139-d580-456a-87c0-76653da38d10" />
+
 
 
 **Back**
 
 
-<img width="728" height="621" alt="image" src="https://github.com/user-attachments/assets/e87e5c29-9f41-4dad-9198-84d7db264583" />
+<img width="787" height="794" alt="Screenshot 2026-06-18 111507" src="https://github.com/user-attachments/assets/509ad759-4741-4de1-a918-472962b163fb" />
 
 
 **3D**
 
 
-<img width="660" height="514" alt="image" src="https://github.com/user-attachments/assets/ef31d07d-f34c-4305-9137-35cbbcfa9d33" />
-
+<img width="783" height="759" alt="image" src="https://github.com/user-attachments/assets/62499b4f-61a8-482c-8c38-611f51c67ab8" />
 
 
 
@@ -76,16 +76,33 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 
 | Item | LCSC # / Item Links | Single Cost | Amount Used | Fees/Notes | Total Price |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
-| 1uF Capacitor | [C15849]() | $0.0148 | 16 | ---------- | $0.2368 |
-| 100nF Capacitor | [C14663]() | $0.0094 | 6 | ---------- | $0.0564 |
-| 56k Resistor | [C23206]() | $0.0020 | 16 | ---------- | $0.032 |
-| 5.1k Resistor | [C23186]() | $0.0018 | 4 | ---------- | $0.0072 |
-| 330 Resistor | [C23138]() | $0.0016 | 2 | ---------- | $0.0032 |
-| **OPSCO Optoelectronics SK6812MINIRGBW-NW-P6** | [C7423107]() | $0.1301 | 160 (80 per) | Forced to buy 162 | $14.2884 |
-| **CoreChips SL2.1s** | [C2684433]() | $0.2494 | 2 | Forced to buy 5 | $1.247 |
-| **TI SN74AHCT125DR** | [C155176]() | $0.3489 | 2 | ---------- | $0.6978 |
-| **SHOU HAN TYPE-C16PIN** | [C393939]() | $0.0653 | 10 | ---------- | $0.6530 |
+| 1uF Capacitor | [C15849](https://www.lcsc.com/product-detail/C15849.html?s_z=n_q_C15849&globalKeyword=C15849) | $0.0148 | 16 | ---------- | $0.2368 |
+| 100nF Capacitor | [C14663](https://www.lcsc.com/product-detail/C14663.html?s_z=n_q_C14663&globalKeyword=C14663) | $0.0094 | 6 | ---------- | $0.0564 |
+| 56k Resistor | [C23206](https://www.lcsc.com/product-detail/C23206.html?s_z=n_q_C23206&globalKeyword=C23206) | $0.0020 | 16 | ---------- | $0.032 |
+| 5.1k Resistor | [C23186](https://www.lcsc.com/product-detail/C23186.html?s_z=n_q_C23186&globalKeyword=C23186) | $0.0018 | 4 | ---------- | $0.0072 |
+| 330 Resistor | [C23138](https://www.lcsc.com/product-detail/C23138.html?s_z=n_q_C23138&globalKeyword=C23138) | $0.0016 | 2 | ---------- | $0.0032 |
+| **OPSCO Optoelectronics SK6812MINIRGBW-NW-P6** | [C7423107](https://www.lcsc.com/product-detail/C7423107.html?s_z=n_q_C7423107&globalKeyword=C7423107) | $0.1301 | 160 (80 per) | Forced to buy 162 | $14.2884 |
+| **CoreChips SL2.1s** | [C2684433](https://www.lcsc.com/product-detail/C2684433.html?s_z=n_q_C2684433&globalKeyword=C2684433) | $0.2494 | 2 | Forced to buy 5 | $1.247 |
+| **TI SN74AHCT125DR** | [C155176](https://www.lcsc.com/product-detail/C155176.html?s_z=n_q_C155176&globalKeyword=C155176) | $0.3489 | 2 | ---------- | $0.6978 |
+| **SHOU HAN TYPE-C16PIN** | [C393939](https://www.lcsc.com/product-detail/C393939.html?s_z=n_q_C393939&globalKeyword=C393939) | $0.0653 | 10 | ---------- | $0.6530 |
 | ***Seeed Studio XIAO-ESP32 C3 DIP*** | [AliExpress](https://www.aliexpress.us/item/3256805951491414.html?channel=twinner ) | $8.48 | 2 | Excluding shipping and aliexpress fees | $16.96 |
+|  |  |  |  |  |  |
+| Part Total: | ---------- | ---------- | ---------- | ---------- | $34.1818 |
+|  |  |  |  |  |  |
+| ***Addional Fees*** | ---------- | ---------- | ---------- | ---------- | ---------- |
+| PCB Price | ---------- | ---------- | ---------- | ---------- | $6 ($2 coupon, $8 normally) |
+|  |  |  |  |  |  |
+| **PCBA Price** | (Is for both PCBs. Chip part and LED Part) | ---------- | ---------- | ---------- | **$35.52** |
+| ---------- | Setup Fee | ---------- | ---------- | $16.36 | |
+| ---------- | Stencil | ---------- | ---------- |  $3.06  | |
+| ---------- | Extended Componets fee (boldfaced componets) | ---------- | ---------- | $12.28 |  |
+| ---------- | SMT Assembly | ---------- | ---------- | $2.12 |  |
+| ---------- | Nitrogen Reflow Soldering | ---------- | ---------- | $1.70 |  |
+|  |  |  |  |  |  |
+| Shipping Fees | ---------- | ---------- | ---------- | ---------- | $22.60 |
+| Sales Tax | ---------- | ---------- | ---------- | ---------- | $6 |
+|  |  |  |  |  |  |
+| ***GRAND TOTAL (for 2)*** | ---------- | ---------- | ---------- | ---------- | $104.3018 (gah dam) |
 
 ## How to Build
 
