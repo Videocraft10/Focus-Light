@@ -128,7 +128,7 @@ I decided to use WLED to control the lights! A guide on how to install this on y
 ## How to use!
 ### LED's
 
-Simply plug the lamp on! The LEDs will turn on automaticly, ensure you are plugging into the non usb hub ports (the 5 lower ports)
+Simply plug the lamp on! The LEDs will turn on automaticly or according to your on WLED setup, ensure you are plugging into the non usb hub ports (the 5 lower ports)
 
 ### USB Hub
 
@@ -141,6 +141,9 @@ Click PCBA, and select how many you want assembled (minimun 2)
 Then download all case files from [here](https://github.com/Videocraft10/Focus-Light/tree/main/CAD%20Files/Case) or [here for 3D print ready files](https://github.com/Videocraft10/Focus-Light/tree/main/3D%20Print%20Files)
 Slices the files in your sclicer of choise and 3d print each part. Please note that this is quite large so you need a printer with a spacious print bed.
 Screw in the PCB's and soder on the ESP-32C3 and wires on the chip PCB to the LED PCB.
+Plug in the lamp into your computer though the one raised usb port and install WLED [https://install.wled.me/](https://install.wled.me/)
+Once installed follow the indepth instructions on the WLED website to connect your lamp to a controler device like your phone or though the web!
+You can control effects and color though there!
 
 Optional! You can create your own custom firmware for the ESP32 to make the LED's do anything you want! or use WLED like I did.
 
