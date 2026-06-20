@@ -1,9 +1,12 @@
-# Focus-Light [WIP]
+# Focus-Light
 Custom Made Desk Light (with a disco mode)
 
 ## Features
+<img width="2480" height="3508" alt="Videocraft Focus Light Zine" src="https://github.com/user-attachments/assets/2b213746-0c68-46ec-aff4-bfd138511eaa" />
+
+
 1. Smooth light dimming
-2. [Some number] Max nits of brightness
+2. Aproxx 400 to 500 lumens of brightness
 3. Buttons to control lights
 4. Disco Mode!!
 
@@ -104,8 +107,20 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 |  |  |  |  |  |  |
 | ***GRAND TOTAL (for 2)*** | ---------- | ---------- | ---------- | ---------- | $104.3018 (gah dam) |
 
+## How to use!
+### LED's
+
+Simply plug the lamp on! The LEDs will turn on automaticly, ensure you are plugging into the non usb hub ports (the 5 lower ports)
+
+### USB Hub
+
+Simply plug your computer into the lower usb port closest to the raised one, and plug any accessories into the other lower ones to the right.
+
 ## How to Build
 
+Download the easyeda file from [here](https://github.com/Videocraft10/Focus-Light/blob/main/PCB%20Files/ProPrj_Videocraft%20Focus%20Light.epro2) and upload it to easyeda's pcb fabrication service.
+Click PCBA, and select how many you want assembled (minimun 2)
+Then download all case files from [here](
 
 ## Software Used
 
