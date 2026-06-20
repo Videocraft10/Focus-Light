@@ -1,5 +1,5 @@
 # Focus-Light
-Custom Made Desk Light (with a disco mode)
+Custom Made Desk Light
 
 ## Features
 <img width="2480" height="3508" alt="Videocraft Focus Light Zine" src="https://github.com/user-attachments/assets/2b213746-0c68-46ec-aff4-bfd138511eaa" />
@@ -9,6 +9,7 @@ Custom Made Desk Light (with a disco mode)
 2. Aproxx 400 to 500 lumens of brightness
 3. Buttons to control lights
 4. Disco Mode!!
+5. INFINITE CUSTOMIZABILITY DUE TO WLED FIRMWARE
 
 ## Why?
 
