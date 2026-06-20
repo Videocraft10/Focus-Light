@@ -1,15 +1,19 @@
-# Focus-Light [WIP]
-Custom Made Desk Light (with a disco mode)
+# Focus-Light
+Custom Made Desk Light
 
 ## Features
+<img width="2480" height="3508" alt="Videocraft Focus Light Zine" src="https://github.com/user-attachments/assets/2b213746-0c68-46ec-aff4-bfd138511eaa" />
+
+
 1. Smooth light dimming
-2. [Some number] Max nits of brightness
+2. Aproxx 400 to 500 lumens of brightness
 3. Buttons to control lights
 4. Disco Mode!!
+5. INFINITE CUSTOMIZABILITY DUE TO WLED FIRMWARE
 
 ## Why?
 
-I wanted to create a incredibly usful project that I would use basicly every single day that could live on my desk at home. Addionaly this project will help me fully understand how lights work with voltages and how wiring helps etc.
+I wanted to create a incredibly useful project that I would use basicly every single day that could live on my desk at home. Addionaly this project will help me fully understand how lights work and how to effectivly create projects with them.
 
 ## The PCB
 
@@ -66,9 +70,27 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 
 
 ## The Case
+Full case
 
 
-## Firmware?
+
+<img width="538" height="709" alt="image" src="https://github.com/user-attachments/assets/b632b3e7-4054-4f31-af62-b07b5c7dbdb2" />
+
+
+Easy to open lids to acess PCB's
+<img width="1274" height="807" alt="image" src="https://github.com/user-attachments/assets/1fbda57c-b096-4342-81c6-edea2742b4c3" />
+
+
+<img width="1022" height="774" alt="image" src="https://github.com/user-attachments/assets/ef31644c-d38d-45e3-91ce-fef8f8288229" />
+
+
+Hollow tube in the middle to be able to thread wires between the two pcb's
+<img width="617" height="802" alt="image" src="https://github.com/user-attachments/assets/8838950a-49b7-4f52-9a7d-fb24b097ddab" />
+
+
+## Firmware
+
+I decided to use WLED to control the lights! A guide on how to install this on your own project can be found [here](https://kno.wled.ge/basics/getting-started/)
 
 
 ## BOM
@@ -104,8 +126,32 @@ The PCB for this project was created within EasyEDA for easy parts and footprint
 |  |  |  |  |  |  |
 | ***GRAND TOTAL (for 2)*** | ---------- | ---------- | ---------- | ---------- | $104.3018 (gah dam) |
 
+## How to use!
+### LED's
+
+Simply plug the lamp on! The LEDs will turn on automaticly or according to your on WLED setup, ensure you are plugging into the non usb hub ports (the 5 lower ports)
+
+### USB Hub
+
+Simply plug your computer into the lower usb port closest to the raised one, and plug any accessories into the other lower ones to the right.
+
 ## How to Build
+
+Download the easyeda file from [here](https://github.com/Videocraft10/Focus-Light/blob/main/PCB%20Files/ProPrj_Videocraft%20Focus%20Light.epro2) and upload it to easyeda's pcb fabrication service.
+Click PCBA, and select how many you want assembled (minimun 2)
+Then download all case files from [here](https://github.com/Videocraft10/Focus-Light/tree/main/CAD%20Files/Case) or [here for 3D print ready files](https://github.com/Videocraft10/Focus-Light/tree/main/3D%20Print%20Files)
+Slices the files in your sclicer of choise and 3d print each part. Please note that this is quite large so you need a printer with a spacious print bed.
+Screw in the PCB's and soder on the ESP-32C3 and wires on the chip PCB to the LED PCB.
+Plug in the lamp into your computer though the one raised usb port and install WLED [https://install.wled.me/](https://install.wled.me/)
+Once installed follow the indepth instructions on the WLED website to connect your lamp to a controler device like your phone or though the web!
+You can control effects and color though there!
+
+Optional! You can create your own custom firmware for the ESP32 to make the LED's do anything you want! or use WLED like I did.
 
 
 ## Software Used
 
+Blender
+EasyEDA
+Fusion
+Adobe Photoshop
